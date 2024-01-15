@@ -6,9 +6,6 @@ const endpoint = String.fromEnvironment(
   defaultValue: 'prod',
 );
 
-
-
-
 void main() {
   runApp(const MyApp());
 }
