@@ -6,6 +6,9 @@ const endpoint = String.fromEnvironment(
   defaultValue: 'prod',
 );
 
+
+
+
 void main() {
   runApp(const MyApp());
 }
@@ -33,7 +36,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: const Center(child: Text("Env: $endpoint")),
+      body: Center(child: Text("Env: $endpoint")),
     );
   }
 }
